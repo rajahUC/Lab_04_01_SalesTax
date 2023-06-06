@@ -4,6 +4,10 @@ public class Main
     {
         double purchasePrice = 20.50;
         final double SALES_TAX = 0.05;
-        double totalPrice = 0;
+        double tax = 0;
+
+        tax = purchasePrice * SALES_TAX;
+
+        System.out.println("The tax for a purchase price of " + purchasePrice + " and a sales tax of " + SALES_TAX + " is " + tax);
     }
 }
